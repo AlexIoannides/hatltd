@@ -8,8 +8,8 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Heart
-  m_Shader: {fileID: 4800000, guid: 93d8fc18fdc65dd4aa903210d93f3343, type: 3}
-  m_Parent: {fileID: 2100000, guid: 9eb722b0ceeb9c34fa2b2afbc8a97dd1, type: 2}
+  m_Shader: {fileID: 4800000, guid: e678ec0f80695014392e78a0142dfd2f, type: 3}
+  m_Parent: {fileID: 2100000, guid: 06d47b91464ba0548b33f8cf9caa4707, type: 2}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords:

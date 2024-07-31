@@ -1,12 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class StarPlayer : MonoBehaviour
 {
     public float moveSpeed = 6.0f; //The f at the end of the number says it is a floating-point number
     public float rotateSpeed = 0.65f;
     public int stars = 0; // An integer whole number
+    public TMP_Text starText;
+    public TMP_Text timeText;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,6 +19,12 @@ public class StarPlayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        starText.SetText("Stars: " + stars);
+        if (stars < 3)
+        {
+            timeText.SetText("Time: " + Mathf.Round(Time.time));
+        }
+        
         float speed = Input.GetAxis("Vertical");
 
         //Set animations
